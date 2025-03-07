@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const path = require("path");
+const cookieParser = require("cookie-parser");
 const authRoutes = require("./routes/authRoutes");
 
 const app = express();
@@ -8,6 +9,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "views")));
+app.use(cookieParser());
 
 //route get pour afficher la page de connexion/inscription
 app.get("/", async (req, res) => {
@@ -25,6 +27,7 @@ mongoose
   .catch((err) => {
     console.log("Failed to connect to MongoDB", err);
   });
+
 
 //routes
 app.use("/", authRoutes);

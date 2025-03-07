@@ -8,7 +8,7 @@ module.exports.connection = (req, res) => {
 };
 
 module.exports.private = (req, res) => {
-  res.json({ title: "mon premier titre", description: "HOPA GANGNAM STYLE!" });
+  res.sendFile(path.join(__dirname, "../views/translate/trad.html"));
 };
 
 module.exports.signup = async (req, res) => {
@@ -71,5 +71,6 @@ module.exports.login = async (req, res) => {
 
   //Créer et assigner un token
   const token = jwt.sign({ _id: existingUser._id }, process.env.TOKEN_SECRET);
-  res.header("auth-token", token).send(token);
+  res.cookie('auth-token', token, { httpOnly: true, maxAge: 3600000 });
+  res.json({ message: "Login successful!" });
 };
