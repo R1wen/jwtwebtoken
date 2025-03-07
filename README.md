@@ -21,7 +21,7 @@ Ce projet est une application web d'authentification utilisant JSON Web Tokens (
 1. Clonez le dépôt :
 
    ```sh
-   git clone <URL_DU_DEPOT>
+   git clone https://github.com/R1wen/jwtwebtokenn.git
 
    ```
 
@@ -36,7 +36,7 @@ Ce projet est une application web d'authentification utilisant JSON Web Tokens (
 
 4. Créez un fichier .env à la racine du projet et ajoutez les variables d'environnement suivantes :
    ```sh
-   </vscode_annotation> DB_URL=mongodb+srv://admin:admin@s3.koh03.mongodb.net/AUTH-TEST?retryWrites=true&w=majority&appName=s3
+   DB_URL=mongodb+srv://admin:admin@s3.koh03.mongodb.net/AUTH-TEST?retryWrites=true&w=majority&appName=s3
    TOKEN_SECRET=bsggqfjeifknqokenfkoqenf
    ```
 
