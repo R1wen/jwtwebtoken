@@ -71,6 +71,11 @@ module.exports.login = async (req, res) => {
 
   //Créer et assigner un token
   const token = jwt.sign({ _id: existingUser._id }, process.env.TOKEN_SECRET);
-  res.cookie('auth-token', token, { httpOnly: true, maxAge: 3600000 });
+  res.cookie("auth-token", token, { httpOnly: true, maxAge: 3600000 });
   res.json({ message: "Login successful!" });
+};
+
+module.exports.logout = (req, res) => {
+  res.cookie("auth-token", "", { maxAge: 1 });
+  res.redirect("/");
 };
