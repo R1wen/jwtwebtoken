@@ -1,4 +1,4 @@
-# AuthenJWT
+# JwtWebTOKEN
 
 ## Description
 
@@ -21,7 +21,7 @@ Ce projet est une application web d'authentification utilisant JSON Web Tokens (
 1. Clonez le dépôt :
 
    ```sh
-   git clone https://github.com/R1wen/jwtwebtokenn.git
+   git clone https://github.com/R1wen/jwtwebtoken.git
 
    ```
 
