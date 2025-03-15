@@ -71,7 +71,10 @@ Ce projet est une application web d'authentification utilisant JSON Web Tokens (
 
 ## Auteur
 
+BADAKOU Yanis Charles
 OKE K. Erwin
+ADIGBLI K. Alexis 
+
 
 ## Licence
 
