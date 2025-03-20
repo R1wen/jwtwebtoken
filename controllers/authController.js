@@ -57,7 +57,7 @@ module.exports.login = async (req, res) => {
   if (!existingUser) {
     return res
       .status(400)
-      .json({ error: "Le nom d'utilisateur n'existe pas." });
+      .json({ error: "Le nom d'utilisateur ou mot de passe incorrecte." });
   }
 
   //verifier si le mot de passe est correcte
@@ -66,13 +66,15 @@ module.exports.login = async (req, res) => {
     existingUser.password
   );
   if (!passwordCorrect) {
-    return res.status(400).json({ error: "Le mot de passe est incorrecte." });
+    return res
+      .status(400)
+      .json({ error: "Le nom d'utilisateur ou mot de passe incorrecte." });
   }
 
   //Créer et assigner un token
   const token = jwt.sign({ _id: existingUser._id }, process.env.TOKEN_SECRET);
   res.cookie("auth-token", token, { httpOnly: true, maxAge: 3600000 });
-  res.json({ message: "Login successful!" });
+  res.status(200).send("Connexion réussie");
 };
 
 module.exports.logout = (req, res) => {
