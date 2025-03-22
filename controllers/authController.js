@@ -2,6 +2,7 @@ const bcrypt = require("bcrypt");
 const path = require("path");
 const jwt = require("jsonwebtoken");
 const User = require("../models/user.model");
+const logger = require("../middlewares/winston");
 
 module.exports.connection = (req, res) => {
   res.sendFile(path.join(__dirname, "../views/index.html"));
@@ -17,6 +18,7 @@ module.exports.signup = async (req, res) => {
 
     //Vérifier si tous les champs sont remplis
     if (!username || !password) {
+      logger.warn("Erreur d'inscription: Champs manquants");
       return res
         .status(400)
         .json({ error: "Tous les champs sont obligatoires." });
@@ -25,6 +27,7 @@ module.exports.signup = async (req, res) => {
     // Vérifier si l'utilisateur existe déjà
     const existingUser = await User.findOne({ username });
     if (existingUser) {
+      logger.warn(`Erreur d'inscription: ${username} existe déjà`);
       return res
         .status(400)
         .json({ error: "Le nom d'utilisateur existe déjà." });
@@ -41,10 +44,11 @@ module.exports.signup = async (req, res) => {
 
     // Sauvegarder dans la base de données
     await newUser.save();
+    logger.info(`Utilisateur ${username} créer avec succès`);
 
     res.status(201).send("Utilisateur créé avec succès.");
   } catch (error) {
-    console.error(error);
+    logger.error("Erreur durant l'inscription", error);
     res
       .status(500)
       .json({ error: "Erreur lors de la création de l'utilisateur." });
@@ -55,6 +59,7 @@ module.exports.login = async (req, res) => {
   //VERIFIER SI L'utillisateur existe
   const existingUser = await User.findOne({ username: req.body.username });
   if (!existingUser) {
+    logger.warn(`Echec login: Nom d'utilisateur ${username} introuvable`);
     return res
       .status(400)
       .json({ error: "Le nom d'utilisateur ou mot de passe incorrecte." });
@@ -66,6 +71,9 @@ module.exports.login = async (req, res) => {
     existingUser.password
   );
   if (!passwordCorrect) {
+    logger.warn(
+      `Erreur login: Mot de apsse incorrecte pour l'utilisateur ${username}`
+    );
     return res
       .status(400)
       .json({ error: "Le nom d'utilisateur ou mot de passe incorrecte." });
@@ -74,6 +82,7 @@ module.exports.login = async (req, res) => {
   //Créer et assigner un token
   const token = jwt.sign({ _id: existingUser._id }, process.env.TOKEN_SECRET);
   res.cookie("auth-token", token, { httpOnly: true, maxAge: 3600000 });
+  logger.info(`L'utilisateur ${username} connecté avec succès`);
   res.status(200).send("Connexion réussie");
 };
 
@@ -83,5 +92,5 @@ module.exports.logout = (req, res) => {
 };
 
 async function deleteUserByUsername(username) {
-  const result = await User.deleteOne({ username});
-};
+  const result = await User.deleteOne({ username });
+}
