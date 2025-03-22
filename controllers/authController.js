@@ -8,7 +8,7 @@ module.exports.connection = (req, res) => {
   res.sendFile(path.join(__dirname, "../views/index.html"));
 };
 
-module.exports.private = (req, res) => {
+module.exports.translate = (req, res) => {
   res.sendFile(path.join(__dirname, "../views/translate/trad.html"));
 };
 
@@ -28,9 +28,7 @@ module.exports.signup = async (req, res) => {
     const existingUser = await User.findOne({ username });
     if (existingUser) {
       logger.warn(`Erreur d'inscription: ${username} existe déjà`);
-      return res
-        .status(400)
-        .json({ error: "Le nom d'utilisateur existe déjà." });
+      return res.status(400).json({ error: "Le nom d'utilisateur existe déjà." });
     }
 
     // Hasher le mot de passe
@@ -44,9 +42,9 @@ module.exports.signup = async (req, res) => {
 
     // Sauvegarder dans la base de données
     await newUser.save();
-    logger.info(`Utilisateur ${username} créer avec succès`);
 
-    res.status(201).send("Utilisateur créé avec succès.");
+    logger.info(`Utilisateur ${username} créer avec succès`);
+    res.status(201).redirect("/");
   } catch (error) {
     logger.error("Erreur durant l'inscription", error);
     res
@@ -57,6 +55,7 @@ module.exports.signup = async (req, res) => {
 
 module.exports.login = async (req, res) => {
   //VERIFIER SI L'utillisateur existe
+  const { username, password } = req.body;
   const existingUser = await User.findOne({ username: req.body.username });
   if (!existingUser) {
     logger.warn(`Echec login: Nom d'utilisateur ${username} introuvable`);
@@ -72,7 +71,7 @@ module.exports.login = async (req, res) => {
   );
   if (!passwordCorrect) {
     logger.warn(
-      `Erreur login: Mot de apsse incorrecte pour l'utilisateur ${username}`
+      `Erreur login: Mot de passe incorrecte pour l'utilisateur ${username}`
     );
     return res
       .status(400)
@@ -82,15 +81,13 @@ module.exports.login = async (req, res) => {
   //Créer et assigner un token
   const token = jwt.sign({ _id: existingUser._id }, process.env.TOKEN_SECRET);
   res.cookie("auth-token", token, { httpOnly: true, maxAge: 3600000 });
+  res.setHeader('Cache-Control', 'no-store');
+  res.status(200).redirect('/translate');
   logger.info(`L'utilisateur ${username} connecté avec succès`);
-  res.status(200).send("Connexion réussie");
+  
 };
 
 module.exports.logout = (req, res) => {
   res.cookie("auth-token", "", { maxAge: 1 });
   res.redirect("/");
 };
-
-async function deleteUserByUsername(username) {
-  const result = await User.deleteOne({ username });
-}

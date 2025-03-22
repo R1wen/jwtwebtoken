@@ -66,7 +66,6 @@ describe("Auth Routes", () => {
       });
 
       expect(response.status).toBe(201);
-      expect(response.text).toBe("Utilisateur créé avec succès.");
     });
 
     it("should return 400 if username or password is missing", async () => {

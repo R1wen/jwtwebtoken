@@ -37,7 +37,5 @@ mongoose
 
 //routes
 app.use("/", authRoutes);
-
 app.use(checkPermissions);
-
 app.use(errorHandler);
