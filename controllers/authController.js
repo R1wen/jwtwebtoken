@@ -81,3 +81,7 @@ module.exports.logout = (req, res) => {
   res.cookie("auth-token", "", { maxAge: 1 });
   res.redirect("/");
 };
+
+async function deleteUserByUsername(username) {
+  const result = await User.deleteOne({ username});
+};
