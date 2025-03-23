@@ -381,3 +381,10 @@
 2025-03-23 18:41:32 warn: Erreur d'inscription: testuser existe déjà
 2025-03-23 18:41:32 info: L'utilisateur erwin connecté avec succès
 2025-03-23 18:41:32 warn: Echec login: Nom d'utilisateur  introuvable
+2025-03-23 18:42:46 warn: Erreur d'accès à la page: token manquants
+2025-03-23 18:42:47 info: Utilisateur testuser1 créer avec succès
+2025-03-23 18:42:47 warn: Erreur d'inscription: Champs manquants
+2025-03-23 18:42:48 info: Utilisateur testuser créer avec succès
+2025-03-23 18:42:48 warn: Erreur d'inscription: testuser existe déjà
+2025-03-23 18:42:48 info: L'utilisateur erwin connecté avec succès
+2025-03-23 18:42:49 warn: Echec login: Nom d'utilisateur  introuvable
