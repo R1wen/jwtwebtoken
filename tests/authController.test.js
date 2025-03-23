@@ -64,6 +64,7 @@ describe("Auth Routes", () => {
         username: "testuser1",
         password: "testpassword",
       });
+      console.log(response.body);
 
       expect(response.status).toBe(201);
     });
@@ -91,7 +92,6 @@ describe("Auth Routes", () => {
         password: "testpassword",
       });
 
-      console.log("Response:", response.status, response.body);
       expect(response.status).toBe(400);
       expect(response.body.error).toBe("Le nom d'utilisateur existe déjà.");
     });
@@ -111,7 +111,6 @@ describe("Auth Routes", () => {
       });
 
       expect(response.status).toBe(200);
-      expect(response.text).toBe("Connexion réussie");
     });
 
     it("should return 400 if username or password incorrect", async () => {

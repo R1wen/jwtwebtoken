@@ -330,3 +330,54 @@
 2025-03-23 17:45:57 info: Server is running on port 3000
 2025-03-23 17:46:00 info: Connected to MongoDB
 2025-03-23 17:46:00 info: Server is running on port 3000
+2025-03-23 18:14:28 info: Utilisateur testuser1 créer avec succès
+2025-03-23 18:14:28 warn: Erreur d'inscription: Champs manquants
+2025-03-23 18:14:29 info: Utilisateur testuser créer avec succès
+2025-03-23 18:14:29 warn: Erreur d'inscription: testuser existe déjà
+2025-03-23 18:14:30 info: L'utilisateur erwin connecté avec succès
+2025-03-23 18:14:30 warn: Echec login: Nom d'utilisateur  introuvable
+2025-03-23 18:18:29 info: Utilisateur testuser1 créer avec succès
+2025-03-23 18:18:29 warn: Erreur d'inscription: Champs manquants
+2025-03-23 18:18:30 info: Utilisateur testuser créer avec succès
+2025-03-23 18:18:30 warn: Erreur d'inscription: testuser existe déjà
+2025-03-23 18:18:30 info: L'utilisateur erwin connecté avec succès
+2025-03-23 18:18:30 warn: Echec login: Nom d'utilisateur  introuvable
+2025-03-23 18:21:54 info: Utilisateur testuser1 créer avec succès
+2025-03-23 18:21:58 warn: Erreur d'inscription: Champs manquants
+2025-03-23 18:21:58 info: Utilisateur testuser créer avec succès
+2025-03-23 18:22:04 info: L'utilisateur erwin connecté avec succès
+2025-03-23 18:22:04 warn: Echec login: Nom d'utilisateur  introuvable
+2025-03-23 18:22:45 info: Utilisateur testuser1 créer avec succès
+2025-03-23 18:22:55 warn: Erreur d'inscription: Champs manquants
+2025-03-23 18:22:55 info: Utilisateur testuser créer avec succès
+2025-03-23 18:23:00 info: L'utilisateur erwin connecté avec succès
+2025-03-23 18:23:00 warn: Echec login: Nom d'utilisateur  introuvable
+2025-03-23 18:24:52 info: Utilisateur testuser1 créer avec succès
+2025-03-23 18:24:57 warn: Erreur d'inscription: Champs manquants
+2025-03-23 18:24:57 info: Utilisateur testuser créer avec succès
+2025-03-23 18:25:02 info: L'utilisateur erwin connecté avec succès
+2025-03-23 18:25:03 warn: Echec login: Nom d'utilisateur  introuvable
+2025-03-23 18:27:32 info: Utilisateur testuser1 créer avec succès
+2025-03-23 18:27:36 warn: Erreur d'inscription: Champs manquants
+2025-03-23 18:27:36 info: Utilisateur testuser créer avec succès
+2025-03-23 18:27:41 info: L'utilisateur erwin connecté avec succès
+2025-03-23 18:27:41 warn: Echec login: Nom d'utilisateur  introuvable
+2025-03-23 18:30:36 info: Utilisateur testuser1 créer avec succès
+2025-03-23 18:30:36 info: Utilisateur testuser créer avec succès
+2025-03-23 18:33:05 warn: Erreur d'inscription: testuser1 existe déjà
+2025-03-23 18:33:06 warn: Erreur d'inscription: Champs manquants
+2025-03-23 18:33:06 info: Utilisateur testuser créer avec succès
+2025-03-23 18:33:11 info: L'utilisateur erwin connecté avec succès
+2025-03-23 18:33:12 warn: Echec login: Nom d'utilisateur  introuvable
+2025-03-23 18:33:13 warn: Erreur d'accès à la page: token manquants
+2025-03-23 18:37:47 info: Utilisateur testuser1 créer avec succès
+2025-03-23 18:37:51 warn: Erreur d'inscription: Champs manquants
+2025-03-23 18:37:52 info: Utilisateur testuser créer avec succès
+2025-03-23 18:37:57 info: L'utilisateur erwin connecté avec succès
+2025-03-23 18:37:57 warn: Echec login: Nom d'utilisateur  introuvable
+2025-03-23 18:41:31 info: Utilisateur testuser1 créer avec succès
+2025-03-23 18:41:31 warn: Erreur d'inscription: Champs manquants
+2025-03-23 18:41:31 info: Utilisateur testuser créer avec succès
+2025-03-23 18:41:32 warn: Erreur d'inscription: testuser existe déjà
+2025-03-23 18:41:32 info: L'utilisateur erwin connecté avec succès
+2025-03-23 18:41:32 warn: Echec login: Nom d'utilisateur  introuvable

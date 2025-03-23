@@ -44,7 +44,7 @@ module.exports.signup = async (req, res) => {
     await newUser.save();
 
     logger.info(`Utilisateur ${username} créer avec succès`);
-    res.status(201).redirect("/");
+    res.status(201).json({success: true});
   } catch (error) {
     logger.error("Erreur durant l'inscription", error);
     res
