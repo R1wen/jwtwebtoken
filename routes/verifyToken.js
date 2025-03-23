@@ -1,8 +1,12 @@
 const jwt = require("jsonwebtoken");
+const logger = require("../middlewares/winston");
 
 module.exports = function (req, res, next) {
   const token = req.cookies['auth-token'];
-  if (!token) return res.status(401).send("Accès refusé");
+  if (!token){
+    logger.warn("Erreur d'accès à la page: token manquants");
+    return res.status(401).send("Accès refusé");
+  }
 
   try {
     const verified = jwt.verify(token, process.env.TOKEN_SECRET);

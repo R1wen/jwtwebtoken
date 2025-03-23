@@ -136,3 +136,197 @@
 2025-03-22 13:40:01 info: POST /login
 2025-03-22 13:40:02 info: L'utilisateur erwin connecté avec succès
 2025-03-22 13:40:02 info: GET /translate/
+2025-03-23 16:59:35 info: Connected to MongoDB
+2025-03-23 16:59:35 info: Server is running on port 3000
+2025-03-23 16:59:46 info: GET /login.svg
+2025-03-23 16:59:46 info: GET /reg.svg
+2025-03-23 16:59:47 info: GET /favicon.ico
+2025-03-23 16:59:53 info: POST /login
+2025-03-23 16:59:53 info: L'utilisateur erwin connecté avec succès
+2025-03-23 16:59:53 info: GET /translate/
+2025-03-23 17:01:20 info: GET /translate/
+2025-03-23 17:01:20 info: GET /favicon.ico
+2025-03-23 17:02:21 info: GET /favicon.ico
+2025-03-23 17:02:26 info: GET /translate/
+2025-03-23 17:02:26 info: GET /favicon.ico
+2025-03-23 17:03:29 info: Connected to MongoDB
+2025-03-23 17:03:29 info: Server is running on port 3000
+2025-03-23 17:03:34 info: GET /login.svg
+2025-03-23 17:03:34 info: GET /reg.svg
+2025-03-23 17:03:34 info: GET /favicon.ico
+2025-03-23 17:03:40 info: POST /login
+2025-03-23 17:03:40 info: L'utilisateur erwin connecté avec succès
+2025-03-23 17:04:28 info: Connected to MongoDB
+2025-03-23 17:04:28 info: Server is running on port 3000
+2025-03-23 17:04:32 info: Connected to MongoDB
+2025-03-23 17:04:32 info: Server is running on port 3000
+2025-03-23 17:04:37 info: GET /login.svg
+2025-03-23 17:04:37 info: GET /reg.svg
+2025-03-23 17:04:37 info: GET /favicon.ico
+2025-03-23 17:04:43 info: POST /login
+2025-03-23 17:04:43 info: L'utilisateur erwin connecté avec succès
+2025-03-23 17:05:22 info: GET /login.svg
+2025-03-23 17:05:22 info: GET /reg.svg
+2025-03-23 17:05:22 info: GET /favicon.ico
+2025-03-23 17:05:31 info: POST /login
+2025-03-23 17:05:31 info: L'utilisateur erwin connecté avec succès
+2025-03-23 17:06:13 info: Connected to MongoDB
+2025-03-23 17:06:13 info: Server is running on port 3000
+2025-03-23 17:06:16 info: GET /login.svg
+2025-03-23 17:06:16 info: GET /reg.svg
+2025-03-23 17:06:16 info: GET /favicon.ico
+2025-03-23 17:06:20 info: POST /login
+2025-03-23 17:06:21 info: L'utilisateur erwin connecté avec succès
+2025-03-23 17:08:59 info: Connected to MongoDB
+2025-03-23 17:08:59 info: Server is running on port 3000
+2025-03-23 17:10:30 info: Connected to MongoDB
+2025-03-23 17:10:30 info: Server is running on port 3000
+2025-03-23 17:10:39 info: Connected to MongoDB
+2025-03-23 17:10:39 info: Server is running on port 3000
+2025-03-23 17:10:42 info: Connected to MongoDB
+2025-03-23 17:10:42 info: Server is running on port 3000
+2025-03-23 17:10:44 info: GET /login.svg
+2025-03-23 17:10:44 info: GET /reg.svg
+2025-03-23 17:10:44 info: GET /favicon.ico
+2025-03-23 17:10:49 info: POST /login
+2025-03-23 17:10:50 info: L'utilisateur erwin connecté avec succès
+2025-03-23 17:10:51 info: GET /translate/
+2025-03-23 17:10:51 info: GET /favicon.ico
+2025-03-23 17:11:14 info: Connected to MongoDB
+2025-03-23 17:11:14 info: Server is running on port 3000
+2025-03-23 17:11:20 info: Connected to MongoDB
+2025-03-23 17:11:20 info: Server is running on port 3000
+2025-03-23 17:11:26 info: Connected to MongoDB
+2025-03-23 17:11:26 info: Server is running on port 3000
+2025-03-23 17:11:35 info: Connected to MongoDB
+2025-03-23 17:11:35 info: Server is running on port 3000
+2025-03-23 17:11:39 info: GET /favicon.ico
+2025-03-23 17:11:42 info: GET /login.svg
+2025-03-23 17:11:42 info: GET /reg.svg
+2025-03-23 17:11:42 info: GET /favicon.ico
+2025-03-23 17:11:48 info: POST /login
+2025-03-23 17:12:18 info: Connected to MongoDB
+2025-03-23 17:12:18 info: Server is running on port 3000
+2025-03-23 17:12:22 info: GET /login.svg
+2025-03-23 17:12:22 info: GET /reg.svg
+2025-03-23 17:12:22 info: GET /favicon.ico
+2025-03-23 17:12:28 info: POST /login
+2025-03-23 17:13:08 info: Connected to MongoDB
+2025-03-23 17:13:08 info: Server is running on port 3000
+2025-03-23 17:13:10 info: GET /login.svg
+2025-03-23 17:13:10 info: GET /reg.svg
+2025-03-23 17:13:11 info: GET /favicon.ico
+2025-03-23 17:13:16 info: POST /login
+2025-03-23 17:13:40 info: Connected to MongoDB
+2025-03-23 17:13:40 info: Server is running on port 3000
+2025-03-23 17:13:42 info: GET /login.svg
+2025-03-23 17:13:42 info: GET /reg.svg
+2025-03-23 17:13:42 info: GET /favicon.ico
+2025-03-23 17:13:47 info: POST /login
+2025-03-23 17:14:12 info: Connected to MongoDB
+2025-03-23 17:14:12 info: Server is running on port 3000
+2025-03-23 17:14:24 info: Connected to MongoDB
+2025-03-23 17:14:24 info: Server is running on port 3000
+2025-03-23 17:14:31 info: Connected to MongoDB
+2025-03-23 17:14:31 info: Server is running on port 3000
+2025-03-23 17:14:35 info: GET /login.svg
+2025-03-23 17:14:35 info: GET /reg.svg
+2025-03-23 17:14:35 info: GET /favicon.ico
+2025-03-23 17:14:41 info: POST /login
+2025-03-23 17:15:14 info: Connected to MongoDB
+2025-03-23 17:15:14 info: Server is running on port 3000
+2025-03-23 17:15:25 info: GET /login.svg
+2025-03-23 17:15:25 info: GET /reg.svg
+2025-03-23 17:15:25 info: GET /favicon.ico
+2025-03-23 17:15:30 info: POST /login
+2025-03-23 17:17:14 info: Connected to MongoDB
+2025-03-23 17:17:14 info: Server is running on port 3000
+2025-03-23 17:17:19 info: Connected to MongoDB
+2025-03-23 17:17:19 info: Server is running on port 3000
+2025-03-23 17:17:22 info: GET /login.svg
+2025-03-23 17:17:22 info: GET /reg.svg
+2025-03-23 17:17:22 info: GET /favicon.ico
+2025-03-23 17:17:25 info: GET /translate/
+2025-03-23 17:17:25 info: GET /favicon.ico
+2025-03-23 17:17:33 info: GET /login.svg
+2025-03-23 17:17:33 info: GET /reg.svg
+2025-03-23 17:17:33 info: GET /favicon.ico
+2025-03-23 17:17:38 info: POST /login
+2025-03-23 17:17:38 info: L'utilisateur erwin connecté avec succès
+2025-03-23 17:17:39 info: GET /translate/
+2025-03-23 17:17:39 info: GET /favicon.ico
+2025-03-23 17:18:13 info: GET /favicon.ico
+2025-03-23 17:22:54 info: GET /login.svg
+2025-03-23 17:22:54 info: GET /reg.svg
+2025-03-23 17:22:54 info: GET /favicon.ico
+2025-03-23 17:23:04 info: POST /login
+2025-03-23 17:23:04 info: L'utilisateur erwin connecté avec succès
+2025-03-23 17:23:06 info: GET /translate/
+2025-03-23 17:23:06 info: GET /favicon.ico
+2025-03-23 17:23:09 info: GET /favicon.ico
+2025-03-23 17:23:10 info: POST /login
+2025-03-23 17:23:10 info: L'utilisateur erwin connecté avec succès
+2025-03-23 17:25:09 info: Connected to MongoDB
+2025-03-23 17:25:09 info: Server is running on port 3000
+2025-03-23 17:25:25 info: Connected to MongoDB
+2025-03-23 17:25:25 info: Server is running on port 3000
+2025-03-23 17:25:29 info: Connected to MongoDB
+2025-03-23 17:25:29 info: Server is running on port 3000
+2025-03-23 17:25:30 info: GET /translate/
+2025-03-23 17:25:30 info: GET /favicon.ico
+2025-03-23 17:25:34 info: GET /login.svg
+2025-03-23 17:25:34 info: GET /reg.svg
+2025-03-23 17:25:34 info: GET /favicon.ico
+2025-03-23 17:25:59 info: Connected to MongoDB
+2025-03-23 17:25:59 info: Server is running on port 3000
+2025-03-23 17:26:10 info: GET /translate/
+2025-03-23 17:26:10 warn: Erreur d'accès à la page: token manquants
+2025-03-23 17:26:10 info: GET /favicon.ico
+2025-03-23 17:26:44 info: Connected to MongoDB
+2025-03-23 17:26:44 info: Server is running on port 3000
+2025-03-23 17:26:50 info: Connected to MongoDB
+2025-03-23 17:26:50 info: Server is running on port 3000
+2025-03-23 17:26:54 info: Connected to MongoDB
+2025-03-23 17:26:54 info: Server is running on port 3000
+2025-03-23 17:27:01 info: Connected to MongoDB
+2025-03-23 17:27:01 info: Server is running on port 3000
+2025-03-23 17:27:07 info: Connected to MongoDB
+2025-03-23 17:27:07 info: Server is running on port 3000
+2025-03-23 17:27:10 info: Connected to MongoDB
+2025-03-23 17:27:10 info: Server is running on port 3000
+2025-03-23 17:27:18 info: GET /login.svg
+2025-03-23 17:27:18 info: GET /reg.svg
+2025-03-23 17:27:18 info: GET /favicon.ico
+2025-03-23 17:27:22 info: GET /translate/
+2025-03-23 17:27:22 warn: Erreur d'accès à la page: token manquants
+2025-03-23 17:27:22 info: GET /favicon.ico
+2025-03-23 17:27:34 info: POST /login
+2025-03-23 17:27:35 info: L'utilisateur erwin connecté avec succès
+2025-03-23 17:27:37 info: GET /translate/
+2025-03-23 17:27:38 info: GET /favicon.ico
+2025-03-23 17:29:45 info: GET /favicon.ico
+2025-03-23 17:30:08 info: POST /login
+2025-03-23 17:30:08 info: L'utilisateur erwin connecté avec succès
+2025-03-23 17:30:19 info: GET /translate/
+2025-03-23 17:30:19 info: GET /favicon.ico
+2025-03-23 17:30:34 info: GET /favicon.ico
+2025-03-23 17:37:02 info: GET /login.svg
+2025-03-23 17:37:02 info: GET /reg.svg
+2025-03-23 17:37:04 info: GET /favicon.ico
+2025-03-23 17:37:38 info: GET /reg.svg
+2025-03-23 17:37:39 info: GET /favicon.ico
+2025-03-23 17:38:01 info: GET /favicon.ico
+2025-03-23 17:38:01 info: GET /favicon.ico
+2025-03-23 17:38:36 info: GET /favicon.ico
+2025-03-23 17:39:25 info: GET /favicon.ico
+2025-03-23 17:44:10 info: GET /favicon.ico
+2025-03-23 17:44:10 info: GET /favicon.ico
+2025-03-23 17:44:54 info: Connected to MongoDB
+2025-03-23 17:44:54 info: Server is running on port 3000
+2025-03-23 17:45:12 info: Connected to MongoDB
+2025-03-23 17:45:12 info: Server is running on port 3000
+2025-03-23 17:45:14 info: GET /favicon.ico
+2025-03-23 17:45:57 info: Connected to MongoDB
+2025-03-23 17:45:57 info: Server is running on port 3000
+2025-03-23 17:46:00 info: Connected to MongoDB
+2025-03-23 17:46:00 info: Server is running on port 3000

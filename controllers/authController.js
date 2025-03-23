@@ -81,8 +81,7 @@ module.exports.login = async (req, res) => {
   //Créer et assigner un token
   const token = jwt.sign({ _id: existingUser._id }, process.env.TOKEN_SECRET);
   res.cookie("auth-token", token, { httpOnly: true, maxAge: 3600000 });
-  res.setHeader('Cache-Control', 'no-store');
-  res.status(200).redirect('/translate');
+  res.status(200).json({success: true});
   logger.info(`L'utilisateur ${username} connecté avec succès`);
   
 };
