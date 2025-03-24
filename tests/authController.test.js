@@ -64,7 +64,6 @@ describe("Auth Routes", () => {
         username: "testuser1",
         password: "testpassword",
       });
-      console.log(response.body);
 
       expect(response.status).toBe(201);
     });

@@ -387,4 +387,129 @@
 2025-03-23 18:42:48 info: Utilisateur testuser créer avec succès
 2025-03-23 18:42:48 warn: Erreur d'inscription: testuser existe déjà
 2025-03-23 18:42:48 info: L'utilisateur erwin connecté avec succès
-2025-03-23 18:42:49 warn: Echec login: Nom d'utilisateur  introuvable
+2025-03-23 18:42:49 warn: Echec login: Nom d'utilisateur  introuvable2025-03-23 19:39:20 info: Connected to MongoDB
+2025-03-23 19:39:20 info: Server is running on port 3000
+2025-03-23 19:39:23 info: GET /favicon.ico
+2025-03-23 19:39:33 info: POST /signup
+2025-03-23 19:39:34 info: Utilisateur testLog créer avec succès
+2025-03-23 19:40:23 info: Connected to MongoDB
+2025-03-23 19:40:23 info: Server is running on port 3000
+2025-03-23 19:40:30 info: Connected to MongoDB
+2025-03-23 19:40:30 info: Server is running on port 3000
+2025-03-23 19:41:43 info: Connected to MongoDB
+2025-03-23 19:41:43 info: Server is running on port 3000
+2025-03-23 19:43:31 info: Connected to MongoDB
+2025-03-23 19:43:31 info: Server is running on port 3000
+2025-03-23 19:43:37 info: Connected to MongoDB
+2025-03-23 19:43:37 info: Server is running on port 3000
+2025-03-23 19:43:43 info: Connected to MongoDB
+2025-03-23 19:43:43 info: Server is running on port 3000
+2025-03-23 19:43:51 info: GET /favicon.ico
+2025-03-23 19:43:59 info: POST /signup
+2025-03-23 19:44:00 info: Utilisateur testLog2 créer avec succès
+2025-03-23 19:44:12 info: Connected to MongoDB
+2025-03-23 19:44:12 info: Server is running on port 3000
+2025-03-23 19:44:51 info: GET /favicon.ico
+2025-03-23 19:44:53 info: POST /signup
+2025-03-23 19:44:53 info: Utilisateur testLog2 créer avec succès
+2025-03-23 19:44:53 info: GET /favicon.ico
+2025-03-23 19:44:59 info: GET /favicon.ico
+2025-03-23 19:44:59 info: GET /favicon.ico
+2025-03-23 19:45:10 info: POST /login
+2025-03-23 19:45:10 warn: Echec login: Nom d'utilisateur  introuvable
+2025-03-23 19:45:50 info: Connected to MongoDB
+2025-03-23 19:45:50 info: Server is running on port 3000
+2025-03-23 19:45:53 info: GET /favicon.ico
+2025-03-23 19:46:02 info: POST /signup
+2025-03-23 19:46:02 warn: Erreur d'inscription: Champs manquants
+2025-03-23 19:46:50 info: Connected to MongoDB
+2025-03-23 19:46:50 info: Server is running on port 3000
+2025-03-23 19:47:00 info: Connected to MongoDB
+2025-03-23 19:47:00 info: Server is running on port 3000
+2025-03-23 19:47:06 info: GET /favicon.ico
+2025-03-23 19:47:14 info: POST /signup
+2025-03-23 19:47:15 info: Utilisateur shawn_bradl créer avec succès
+2025-03-23 19:47:15 info: GET /favicon.ico
+2025-03-23 19:47:36 info: Connected to MongoDB
+2025-03-23 19:47:36 info: Server is running on port 3000
+2025-03-23 19:47:45 info: Connected to MongoDB
+2025-03-23 19:47:45 info: Server is running on port 3000
+2025-03-23 19:47:52 info: Connected to MongoDB
+2025-03-23 19:47:52 info: Server is running on port 3000
+2025-03-23 19:47:55 info: Connected to MongoDB
+2025-03-23 19:47:55 info: Server is running on port 3000
+2025-03-23 19:47:58 info: Connected to MongoDB
+2025-03-23 19:47:58 info: Server is running on port 3000
+2025-03-23 19:48:30 info: GET /favicon.ico
+2025-03-23 19:49:24 info: POST /signup
+2025-03-23 19:49:24 warn: Erreur d'inscription: Champs manquants
+2025-03-23 19:51:07 info: Connected to MongoDB
+2025-03-23 19:51:07 info: Server is running on port 3000
+2025-03-23 19:51:11 info: Connected to MongoDB
+2025-03-23 19:51:11 info: Server is running on port 3000
+2025-03-23 19:51:14 info: Connected to MongoDB
+2025-03-23 19:51:14 info: Server is running on port 3000
+2025-03-23 19:51:26 info: GET /favicon.ico
+2025-03-23 19:51:35 info: POST /signup
+2025-03-23 19:51:35 warn: Erreur d'inscription: Champs manquants
+2025-03-23 19:51:51 info: POST /signup
+2025-03-23 19:51:51 warn: Erreur d'inscription: Champs manquants
+2025-03-23 19:52:42 info: Connected to MongoDB
+2025-03-23 19:52:42 info: Server is running on port 3000
+2025-03-23 19:52:45 info: GET /favicon.ico
+2025-03-23 19:52:52 info: POST /signup
+2025-03-23 19:52:53 info: Utilisateur azerty créer avec succès
+2025-03-23 19:52:53 info: GET /favicon.ico
+2025-03-23 19:52:57 info: GET /favicon.ico
+2025-03-23 19:57:27 info: Connected to MongoDB
+2025-03-23 19:57:27 info: Server is running on port 3000
+2025-03-23 19:57:31 info: Connected to MongoDB
+2025-03-23 19:57:31 info: Server is running on port 3000
+2025-03-23 19:57:37 info: Connected to MongoDB
+2025-03-23 19:57:37 info: Server is running on port 3000
+2025-03-23 19:57:42 info: Connected to MongoDB
+2025-03-23 19:57:42 info: Server is running on port 3000
+2025-03-23 19:57:45 info: Connected to MongoDB
+2025-03-23 19:57:45 info: Server is running on port 3000
+2025-03-23 19:58:01 info: Connected to MongoDB
+2025-03-23 19:58:01 info: Server is running on port 3000
+2025-03-23 19:58:31 info: Connected to MongoDB
+2025-03-23 19:58:31 info: Server is running on port 3000
+2025-03-23 19:58:36 info: Connected to MongoDB
+2025-03-23 19:58:36 info: Server is running on port 3000
+2025-03-23 19:58:44 info: Connected to MongoDB
+2025-03-23 19:58:44 info: Server is running on port 3000
+2025-03-23 19:58:47 info: Connected to MongoDB
+2025-03-23 19:58:47 info: Server is running on port 3000
+2025-03-23 19:58:59 info: Connected to MongoDB
+2025-03-23 19:58:59 info: Server is running on port 3000
+2025-03-23 19:59:02 info: Connected to MongoDB
+2025-03-23 19:59:02 info: Server is running on port 3000
+2025-03-23 19:59:12 info: Connected to MongoDB
+2025-03-23 19:59:12 info: Server is running on port 3000
+2025-03-23 19:59:22 info: Connected to MongoDB
+2025-03-23 19:59:22 info: Server is running on port 3000
+2025-03-23 19:59:27 info: Connected to MongoDB
+2025-03-23 19:59:27 info: Server is running on port 3000
+2025-03-23 19:59:30 info: Connected to MongoDB
+2025-03-23 19:59:30 info: Server is running on port 3000
+2025-03-23 19:59:45 info: GET /favicon.ico
+2025-03-23 20:00:59 info: Connected to MongoDB
+2025-03-23 20:00:59 info: Server is running on port 3000
+2025-03-23 20:01:05 info: Connected to MongoDB
+2025-03-23 20:01:05 info: Server is running on port 3000
+2025-03-23 20:01:10 info: GET /favicon.ico
+2025-03-23 20:09:56 info: Connected to MongoDB
+2025-03-23 20:09:56 info: Server is running on port 3000
+2025-03-24 09:09:57 info: Utilisateur testuser1 créer avec succès
+2025-03-24 09:09:57 warn: Erreur d'inscription: Champs manquants
+2025-03-24 09:09:58 info: Utilisateur testuser créer avec succès
+2025-03-24 09:09:58 warn: Erreur d'inscription: testuser existe déjà
+2025-03-24 09:09:59 info: L'utilisateur erwin connecté avec succès
+2025-03-24 09:09:59 warn: Echec login: Nom d'utilisateur  introuvable
+2025-03-24 09:10:18 info: Utilisateur testuser1 créer avec succès
+2025-03-24 09:10:19 warn: Erreur d'inscription: Champs manquants
+2025-03-24 09:10:19 info: Utilisateur testuser créer avec succès
+2025-03-24 09:10:19 warn: Erreur d'inscription: testuser existe déjà
+2025-03-24 09:10:20 info: L'utilisateur erwin connecté avec succès
+2025-03-24 09:10:20 warn: Echec login: Nom d'utilisateur  introuvable

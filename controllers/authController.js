@@ -16,7 +16,6 @@ module.exports.signup = async (req, res) => {
   try {
     const { username, password } = req.body;
 
-    //Vérifier si tous les champs sont remplis
     if (!username || !password) {
       logger.warn("Erreur d'inscription: Champs manquants");
       return res
@@ -24,17 +23,14 @@ module.exports.signup = async (req, res) => {
         .json({ error: "Tous les champs sont obligatoires." });
     }
 
-    // Vérifier si l'utilisateur existe déjà
     const existingUser = await User.findOne({ username });
     if (existingUser) {
       logger.warn(`Erreur d'inscription: ${username} existe déjà`);
       return res.status(400).json({ error: "Le nom d'utilisateur existe déjà." });
     }
 
-    // Hasher le mot de passe
-    const hashedPassword = await bcrypt.hash(password, 10); // Salt rounds = 10
+    const hashedPassword = await bcrypt.hash(password, 10);
 
-    //Créer un nouvel utilisateur
     const newUser = new User({
       username,
       password: hashedPassword,
@@ -54,7 +50,6 @@ module.exports.signup = async (req, res) => {
 };
 
 module.exports.login = async (req, res) => {
-  //VERIFIER SI L'utillisateur existe
   const { username, password } = req.body;
   const existingUser = await User.findOne({ username: req.body.username });
   if (!existingUser) {
@@ -64,7 +59,6 @@ module.exports.login = async (req, res) => {
       .json({ error: "Le nom d'utilisateur ou mot de passe incorrecte." });
   }
 
-  //verifier si le mot de passe est correcte
   const passwordCorrect = await bcrypt.compare(
     req.body.password,
     existingUser.password
@@ -78,7 +72,6 @@ module.exports.login = async (req, res) => {
       .json({ error: "Le nom d'utilisateur ou mot de passe incorrecte." });
   }
 
-  //Créer et assigner un token
   const token = jwt.sign({ _id: existingUser._id }, process.env.TOKEN_SECRET);
   res.cookie("auth-token", token, { httpOnly: true, maxAge: 3600000 });
   res.status(200).json({success: true});
